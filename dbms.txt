@@ -1,0 +1,93 @@
+============== for data master ===============
+db kapal :
+id_kapal    int
+kode_kapal  int
+nama_kapal  varchar
+dwt         int
+grt         int
+hp          int
+tipe_kapal  varchar
+flag        varchar
+user_id     int
+astmen_status   int
+manager_status  int
+
+db port:
+id_port             int
+kode_port           int
+nama_port           varchar
+user_id             int
+astmen_status       int
+manager_status      int
+
+db diversifikasi:
+id_diver            int
+kode_diver          int
+nama_diver          varchar
+user_id             int
+astmen_status       int
+manager_status      int
+
+db customer:
+id_customer         int
+kode_customer       int
+nama_customer       varchar
+user_id             int
+astmen_status       int
+manager_status      int
+
+db wbs:
+id_wbs              int
+kode_wbs            int
+nama_wbs            varchar
+user_id             int
+astmen_status       int
+manager_status      int
+
+db serviceCode:
+id_sc           int
+kode_sc         int
+nama_sc         varchar
+user_id             int
+astmen_status       int
+manager_status      int
+============== for data master ===============
+
+db service (input dari ta_td):
+id_service              int
+so_number               varchar
+detail_service_id       int
+epd_id                  int 
+panjar_kerja_id         int
+biaya_id                int
+invoice_id              int
+uang_muka_id            int
+pelunasan_id            int
+user_id                 int
+astmen_status           int
+manager_status          int
+
+
+db detail_service (input dari ta_td):
+id_detail_service           int
+kapal_id                    int
+header_note                 int
+periode ta td               varchar
+port_id                     int
+customer_id                 int
+sc_id                       int
+diver_id                    int
+wbs_id                      int
+currency                    int
+status                      varchar
+port_origin                 varchar
+time_arrival                date
+port_destination            varchar
+time_departure              date
+bongkar                     varchar
+ton                         varchar
+kl                          varchar
+muat                        varchar
+ton                         varchar
+kl                          varchar
+

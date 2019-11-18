@@ -1,0 +1,41 @@
+/*table content scrolling in mobile view */
+@media screen and (max-width: 480px) {
+  .media-scroll {
+    overflow-x:auto;
+  }
+}
+
+/*dataTables show & search customize*/
+@media screen and (max-width: 767px){}
+div.dataTables_wrapper div.dataTables_length, div.dataTables_wrapper div.dataTables_filter, div.dataTables_wrapper div.dataTables_info, div.dataTables_wrapper div.dataTables_paginate {
+     text-align: left !important; 
+}
+
+/*datatables show customize*/
+div.dataTables_wrapper div.dataTables_length select {
+    margin-left: 14px;
+    margin-right: 10px;
+}
+
+/*header tiitle*/
+.box-header>.fa, .box-header>.glyphicon, .box-header>.ion, .box-header .box-title {
+    display: inline-block;
+    font-size: 18px;
+    margin: 6px;
+}
+
+/*header line */
+.box-header.with-border {
+    border-bottom: 3px solid #f4f4f4;
+}
+
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    height: 40px;
+}
